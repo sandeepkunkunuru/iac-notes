@@ -4,7 +4,7 @@ This repo will host all IaC related notes/tutorials/analysis for the below :
 
 - Serverless framework
 - AWS
-    - SAM
+    - [SAM](./aws/sam/README.md)
     - CDK
     - Cloudformation
 - Google
