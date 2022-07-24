@@ -27,3 +27,5 @@ Amongst the 3
 - For brevity and readability, CDK seems to be the most apt, next SAM and then cloudformation (discarding) CLI commands  and AWS console.
 - For ease of use SAM seems to be the most apt followed CDK and then cloudformation.
 - For quick testing and debugging SAM is the only option (other than CLI or AWS console.)
+- While it is feasible to embed GraphQL schema into cloudformation (and therefore into SAM template) and also use existing cloudformation templates in CDK ex: https://docs.aws.amazon.com/cdk/api/v1/docs/cloudformation-include-readme.html, It is not feasible to embed CDK code into cloudformation template i.e. in some ways CDK supersedes and deprecates cloudformation templates and makes SAM templates redundant. 
+- Also, CDK internally generates cloudformation templates, so in terms of capabilities/express-ability all 3 are equal today while cloudformation seems to be the internal gold standard to which everything is converted.
